@@ -29,6 +29,11 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/homeScreenS1',{
+        templateUrl: 'views/homeScreenS1.html',
+        controller: 'homeScreen',
+        controllerAs:'homeScreenS1'
+      })
       .otherwise({
         redirectTo: '/'
       });
