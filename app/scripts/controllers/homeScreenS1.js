@@ -23,7 +23,7 @@
 
 angular.module('3TttApp')
 .controller('homeScreen',function($scope){
-	$scope.imageSource1='images/OnlineTraining.jpg';
+	$scope.imageSource1='images/homeScreenImage.png';
 
 
 });

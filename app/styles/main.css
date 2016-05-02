@@ -62,7 +62,9 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 730px;
+   /* max-width: 730px;*/
+   width:100%;
+   padding:0px;
   }
 
   /* Remove the padding we set earlier */
@@ -80,4 +82,10 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+
+.homeScreenImage{
+  width: 100%;
+  height: 400px;
 }
