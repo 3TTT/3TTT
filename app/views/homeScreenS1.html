@@ -2,18 +2,24 @@
 
 <div class="container">
   <!-- Displaying Images with search testbox and search button -->
-  <div ng-app="3TttApp" ng-controller="homeScreen">
+ 
+ <form ng-app="3TttApp" name="myForm">
   <img class="img-rounded homeScreenImage" ng-src="{{imageSource}}" alt="GroupImage" >
-  </div>
   
-  <div  ng-controller="homeScreen" class="searchBar">
-  <input type="text" ng-model="enteredSearchValue">
-  <button type="button" ng-click="fundSearchValue(enteredSearchValue)">Search</button>
+ <!--  <div ng-app="3TttApp">
+  <img class="img-rounded homeScreenImage" ng-src="{{imageSource}}" alt="GroupImage" >
+  </div> -->
+
+  <div class="searchBar">
+  <input type="text"  name="input" ng-model="enteredSearchValue"ng-minlength=""  ng-maxlength="4"  ng-class="{'red':myForm.input.$invalid}"   />
+  <button type="button" ng-click="fundSearchValue(enteredSearchValue)" ng-disabled="enteredSearchValue == ''|| myForm.$invalid">Search</button>
     <h3>Result is:</h3>
     <ul>
-      <li ng-repeat="result in results">Serial number: {{result.serial}} | Owner: {{result.owner}}</li>
+      <li ng-repeat="result in results"> {{result.serial}}  {{result.owner}}</li>
+
     </ul>
   </div>
+  </form>
 </div>
 
 

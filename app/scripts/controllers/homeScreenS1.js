@@ -24,6 +24,7 @@
 angular.module('3TttApp')
 .controller('homeScreen',function($scope, $http) {
 	$scope.imageSource='images/homeScreenImage.png';
+  $scope.enteredSearchValue='';
 
 
 	$http.get('scripts/controllers/test.json').success( function(response) {
@@ -41,9 +42,10 @@ angular.module('3TttApp')
   		if(key === enteredSearchValue){
   			$scope.results.push({serial: key, owner: value[0].Owner});
   		}
-
   	});
+};
 
-  };
+
 });
+
 
