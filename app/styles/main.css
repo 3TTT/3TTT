@@ -99,3 +99,15 @@ body {
 .red {
     border:2px solid red;
 }
+
+.courseDetailsText{
+  text-align: center;
+}
+
+.courseDetailsList{
+  background-color: rgb(250, 248, 248);
+}
+.CourseImageWithDetails{
+  background-color: yellow;
+  display: inline-block;
+}
