@@ -27,7 +27,6 @@ angular.module('3TttApp')
 };
 
 $scope.CourseImage='images/javaCourseImage.jpg';
-
 $http.get('scripts/controllers/courseDetailsResponse.json').success(function(response){
   $scope.CourseDetailsjson = response;
   console.log('$scope.CourseDetailsjson',$scope.CourseDetailsjson );
@@ -35,6 +34,10 @@ $http.get('scripts/controllers/courseDetailsResponse.json').success(function(res
   console.log("error", error);
 });
 
+$scope.alertFun = function(){
+  window.location = "#/about";
+  // $location.path = "/about";
+};
 
 });
 

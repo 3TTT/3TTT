@@ -25,20 +25,11 @@
     </div>
     <div class="CourseImageWithDetails">
       <div>
-        <img ng-src="{{CourseImage}}" alt="JavaCourseImage">
+        <img ng-src="{{CourseImage}}" alt="JavaCourseImage" ng-click="alertFun()">
       </div>
-      <!-- <div>
-        <h3>Courese Name: Java</h3>
-        <h3>Trainer: Ramesh</h3>
-        <h3>Starting Date: 08/05/16</h3>
-        <h3>Timing: 9am</h3>
-      </div> -->
-
-      <div ng-repeat="x in CourseDetailsjson">
+      <div ng-repeat="x in CourseDetailsjson" ng-click="alertFun()" >
         {{x.CourseName}}<br/>
-        {{x.Trainer}}<br/>
-        {{x.StartingDate}}<br/>
-        {{x.Timing}}
+        {{x.Duration}}<br/>
       </div>
     </div>
   </div>

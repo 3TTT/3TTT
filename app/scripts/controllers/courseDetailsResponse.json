@@ -1,8 +1,6 @@
 [
   {
     "CourseName": "CourseName: Java",
-    "Trainer": "Trainer: Ramesh",
-    "StartingDate": "Starting Date: 08/05/2016",
-    "Timing": "Timing: 9am"
+    "Duration": "Duration: 45 Days"
   }
   ]
