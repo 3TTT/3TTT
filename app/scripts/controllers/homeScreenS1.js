@@ -27,6 +27,7 @@ angular.module('3TttApp')
 };
 
 $scope.CourseImage='images/javaCourseImage.jpg';
+
 $http.get('scripts/controllers/courseDetailsResponse.json').success(function(response){
   $scope.CourseDetailsjson = response;
   console.log('$scope.CourseDetailsjson',$scope.CourseDetailsjson );
