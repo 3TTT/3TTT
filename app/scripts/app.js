@@ -34,6 +34,11 @@ angular
         controller: 'homeScreen',
         controllerAs:'homeScreenS1'
       })
+      .when('/courseDetails',{
+        templateUrl:'views/courseDetails.html',
+        controller:'courseDetails',
+        controllerAs:'courseDetails'
+      })
       .otherwise({
         redirectTo: '/'
       });

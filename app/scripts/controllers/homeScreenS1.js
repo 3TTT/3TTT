@@ -36,7 +36,7 @@ $http.get('scripts/controllers/courseDetailsResponse.json').success(function(res
 });
 
 $scope.alertFun = function(){
-  window.location = "#/about";
+  window.location = "#/courseDetails";
   // $location.path = "/about";
 };
 

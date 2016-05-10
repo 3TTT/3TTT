@@ -84,8 +84,8 @@
     <div ng-repeat= "X in CourseDetailsjson" class="CourseImageWithDetails">
          <div style="width:300px;height:300px;" >
             <img ng-src="{{X.courseImage}}" ng-click="alertFun()"/>
-            <label ng-click="alertFun()">{{X.courseName}}</label><br/>
-            <label ng-click="alertFun()">{{X.trainer}}</label>
+            <label ng-click="alertFun()" class="mouseover">{{X.courseName}}</label><br/>
+            <label ng-click="alertFun()" >{{X.trainer}}</label>
          </div>
     </div>
   </div>
