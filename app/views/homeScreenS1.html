@@ -18,12 +18,12 @@
     </ul>
   </div>
   </form>
-
+<!-- 
   <div class="courseDetailsList">
     <div class="courseDetailsText">
       <h3>Courser Details</h3>
     </div>
-    <!-- Core Java Traning -->
+    
     <div class="CourseImageWithDetails">
       <div>
         <img ng-src="{{CourseImage}}" alt="JavaCourseImage" ng-click="alertFun()">
@@ -33,7 +33,7 @@
         {{x.Duration}}<br/>
       </div>
     </div>
-    <!-- Advanced Java Traning -->
+    
      <div class="CourseImageWithDetails">
       <div>
         <img ng-src="{{CourseImage}}" alt="JavaCourseImage" ng-click="alertFun()">
@@ -43,7 +43,7 @@
         {{x.Duration}}<br/>
       </div>
     </div>
-    <!-- hibernate  Traning -->
+   
     <div class="CourseImageWithDetails">
       <div>
         <img ng-src="{{CourseImage}}" alt="JavaCourseImage" ng-click="alertFun()">
@@ -53,7 +53,7 @@
         {{x.Duration}}<br/>
       </div>
     </div>
-    <!-- struts  Traning -->
+    
     <div class="CourseImageWithDetails">
       <div>
         <img ng-src="{{CourseImage}}" alt="JavaCourseImage" ng-click="alertFun()">
@@ -63,7 +63,7 @@
         {{x.Duration}}<br/>
       </div>
     </div>
-    <!-- spring  Traning -->
+    
     <div class="CourseImageWithDetails">
       <div>
         <img ng-src="{{CourseImage}}" alt="JavaCourseImage" ng-click="alertFun()">
@@ -73,16 +73,21 @@
         {{x.Duration}}<br/>
       </div>
     </div>
-
+  </div> -->
     <!-- ng repeat wedjets -->
-    <div ng-repeat= "X in CourseDetailsjson">
+    <!-- <div ng-repeat= "X in CourseDetailsjson" class="CourseImageWithDetails">
          <div style="width:200px;height:200px;background:{{X.value}}">
             <label>{{X.color}}</label>
-
+         </div>
+    </div> -->
+  <div class="courseDetailsList" >  
+    <div ng-repeat= "X in CourseDetailsjson" class="CourseImageWithDetails">
+         <div style="width:300px;height:300px;" >
+            <img ng-src="{{X.courseImage}}" ng-click="alertFun()"/>
+            <label ng-click="alertFun()">{{X.courseName}}</label><br/>
+            <label ng-click="alertFun()">{{X.trainer}}</label>
          </div>
     </div>
-
   </div>
-
 </div>
 

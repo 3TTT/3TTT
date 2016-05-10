@@ -40,6 +40,10 @@ $scope.alertFun = function(){
   // $location.path = "/about";
 };
 
+// $scope.aleFun = function(){
+// alert("udhcisv");
+// };
+
 });
 
 
