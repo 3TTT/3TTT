@@ -116,3 +116,59 @@ body {
   padding-right: 10px;
   padding-left: 20px;
 }
+#rightClick{
+  cursor: pointer;
+
+}
+#leftClick{
+cursor: pointer;
+}
+#test{
+  padding-top: 50px;
+}
+
+#courseDevContainer{
+ z-index: 10000;
+ bottom: 0px;
+ background-color: yellow;
+ height: 100px;
+ overflow: hidden;
+ width:auto;
+ white-space: nowrap;
+}
+#previousImage{
+  position: absolute;
+  left: 10px;
+  font-size: 20px;
+  font-family: 'avantgarde_medium';
+  text-align: center;
+  padding-top: 35px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1000;
+}
+#nextImage{
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
+  font-size: 'avantgarde_medium';
+  text-align: center;
+  padding-top: 35px;
+  cursor: pointer;
+  z-index: 1000;
+}
+#courseListDetails{
+  position: absolute;
+  width: 500px;
+  overflow: hidden;
+}
+.imgSize{
+  display: inline-block;
+  width: 200px;
+  height: 90px;
+  margin: 10px 5px 8px 33px;
+  list-style: none; 
+}
+.imgSize1{
+  display: inline-block;
+}

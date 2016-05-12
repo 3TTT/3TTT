@@ -40,9 +40,14 @@ $scope.alertFun = function(){
   // $location.path = "/about";
 };
 
-// $scope.aleFun = function(){
-// alert("udhcisv");
-// };
+
+
+// $('#rightClick').click(function(){
+//   alert("jvdksvjs");
+// });
+
+
+
 
 });
 
