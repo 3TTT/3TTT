@@ -46,13 +46,13 @@ $scope.nextImage = function(){
 
 $('#nextImage').click(function(){
   $("#courseListDetails").animate({
-     scrollLeft: '+=156px' 
+     scrollLeft: '+=300px' 
   });
 });
 
 $('#previousImage').click(function(){
   $("#courseListDetails").animate({
-    scrollLeft:'-=156px'
+    scrollLeft:'-=300px'
   });
 });
 });

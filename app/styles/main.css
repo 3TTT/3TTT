@@ -130,8 +130,8 @@ cursor: pointer;
 #courseDevContainer{
  z-index: 10000;
  bottom: 0px;
- background-color: yellow;
- height: 100px;
+ background-color: rgb(228, 228, 228);
+ height: 350px;
  overflow: hidden;
  width:auto;
  white-space: nowrap;
@@ -146,6 +146,7 @@ cursor: pointer;
   font-weight: bold;
   cursor: pointer;
   z-index: 1000;
+  padding-top: 150px;
 }
 #nextImage{
   position: absolute;
@@ -156,19 +157,21 @@ cursor: pointer;
   padding-top: 35px;
   cursor: pointer;
   z-index: 1000;
+  padding-top: 150px;
 }
 #courseListDetails{
   position: absolute;
-  width: 1200px;
+  width: 1600px;
   overflow: hidden;
 }
 .imgSize{
   display: inline-block;
-  width: 200px;
-  height: 90px;
+  width: 300px;
+  height: 300px;
   margin: 10px 5px 8px 33px;
   list-style: none; 
 }
 .imgSize1{
   display: inline-block;
+  cursor: pointer;
 }

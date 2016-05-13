@@ -18,6 +18,26 @@
 		"courseImage": "images/angularjs.png",
 		"courseName": "CourseName: jaav Course",
 		"trainer": "Trainer: ABCD"
+	},
+	{
+		"courseImage": "images/hybernate.png",
+		"courseName": "CourseName: jaav Course",
+		"trainer": "Trainer: ABCD"
+	},
+	{
+		"courseImage": "images/angularjs.png",
+		"courseName": "CourseName: jaav Course",
+		"trainer": "Trainer: ABCD"
+	},
+	{
+		"courseImage": "images/hybernate.png",
+		"courseName": "CourseName: jaav Course",
+		"trainer": "Trainer: ABCD"
+	},
+	{
+		"courseImage": "images/angularjs.png",
+		"courseName": "CourseName: jaav Course",
+		"trainer": "Trainer: ABCD"
 	}
 	
 ]

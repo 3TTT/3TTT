@@ -18,69 +18,8 @@
     </ul>
   </div>
   </form>
-<!-- 
-  <div class="courseDetailsList">
-    <div class="courseDetailsText">
-      <h3>Courser Details</h3>
-    </div>
-    
-    <div class="CourseImageWithDetails">
-      <div>
-        <img ng-src="{{CourseImage}}" alt="JavaCourseImage" ng-click="alertFun()">
-      </div>
-      <div ng-repeat="x in CourseDetailsjson" ng-click="alertFun()" >
-        {{x.CourseName}}<br/>
-        {{x.Duration}}<br/>
-      </div>
-    </div>
-    
-     <div class="CourseImageWithDetails">
-      <div>
-        <img ng-src="{{CourseImage}}" alt="JavaCourseImage" ng-click="alertFun()">
-      </div>
-      <div ng-repeat="x in CourseDetailsjson" ng-click="alertFun()" >
-        {{x.CourseName}}<br/>
-        {{x.Duration}}<br/>
-      </div>
-    </div>
-   
-    <div class="CourseImageWithDetails">
-      <div>
-        <img ng-src="{{CourseImage}}" alt="JavaCourseImage" ng-click="alertFun()">
-      </div>
-      <div ng-repeat="x in CourseDetailsjson" ng-click="alertFun()" >
-        {{x.CourseName}}<br/>
-        {{x.Duration}}<br/>
-      </div>
-    </div>
-    
-    <div class="CourseImageWithDetails">
-      <div>
-        <img ng-src="{{CourseImage}}" alt="JavaCourseImage" ng-click="alertFun()">
-      </div>
-      <div ng-repeat="x in CourseDetailsjson" ng-click="alertFun()" >
-        {{x.CourseName}}<br/>
-        {{x.Duration}}<br/>
-      </div>
-    </div>
-    
-    <div class="CourseImageWithDetails">
-      <div>
-        <img ng-src="{{CourseImage}}" alt="JavaCourseImage" ng-click="alertFun()">
-      </div>
-      <div ng-repeat="x in CourseDetailsjson" ng-click="alertFun()" >
-        {{x.CourseName}}<br/>
-        {{x.Duration}}<br/>
-      </div>
-    </div>
-  </div> -->
-    <!-- ng repeat wedjets -->
-    <!-- <div ng-repeat= "X in CourseDetailsjson" class="CourseImageWithDetails">
-         <div style="width:200px;height:200px;background:{{X.value}}">
-            <label>{{X.color}}</label>
-         </div>
-    </div> -->
-  <div class="courseDetailsList" >  
+
+ <!--  <div class="courseDetailsList" >  
     <div ng-repeat= "X in CourseDetailsjson" class="CourseImageWithDetails">
          <div style="width:300px;height:300px;" >
             <img ng-src="{{X.courseImage}}" ng-click="alertFun()"/>
@@ -88,7 +27,7 @@
             <label ng-click="alertFun()" >{{X.trainer}}</label>
          </div>
     </div>
-  </div>
+  </div> -->
 
 <div id="test">
   
@@ -96,42 +35,9 @@
   <div id="courseDevContainer">
     <div id="nextImage">NI</div>
     <div id="previousImage">PI</div>
-    <div id="courseListDetails">
-      <li class="imgSize1">
-        <!-- <a href="#"> -->
-          <img  class="imgSize" ng-src="images/advancejava.jpg">
-      </li>
-      <li class="imgSize1">
-        <!-- <a href="#"> -->
-          <img  class="imgSize" ng-src="images/advancejava.jpg">
-      </li>
-      <li class="imgSize1">
-        <!-- <a href="#"> -->
-          <img  class="imgSize" ng-src="images/angularjs.png">
-      </li>
-      <li class="imgSize1">
-        <!-- <a href="#"> -->
-          <img  class="imgSize" ng-src="images/angularjs.png">
-      </li>
-      <li class="imgSize1">
-        <!-- <a href="#"> -->
-          <img  class="imgSize" ng-src="images/angularjs.png">
-      </li>
-      <li class="imgSize1">
-        <!-- <a href="#"> -->
-          <img  class="imgSize" ng-src="images/angularjs.png">
-      </li>
-      <li class="imgSize1">
-        <!-- <a href="#"> -->
-          <img  class="imgSize" ng-src="images/angularjs.png">
-      </li>
-      <li class="imgSize1">
-        <!-- <a href="#"> -->
-          <img  class="imgSize" ng-src="images/angularjs.png">
-      </li>
-      <li class="imgSize1">
-        <!-- <a href="#"> -->
-          <img  class="imgSize" ng-src="images/angularjs.png">
+    <div id="courseListDetails" >
+      <li class="imgSize1" ng-repeat= "X in CourseDetailsjson" ng-click="alertFun()">
+        <img  class="imgSize"  <img ng-src="{{X.courseImage}}"/>
       </li>
     </div>
   </div>
