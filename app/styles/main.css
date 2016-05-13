@@ -116,18 +116,14 @@ body {
   padding-right: 10px;
   padding-left: 20px;
 }
-#rightClick{
+.rightClick{
   cursor: pointer;
 
 }
-#leftClick{
+.leftClick{
 cursor: pointer;
 }
-#test{
-  padding-top: 50px;
-}
-
-#courseDevContainer{
+.courseDevContainer{
  z-index: 10000;
  bottom: 0px;
  background-color: rgb(228, 228, 228);
@@ -136,7 +132,7 @@ cursor: pointer;
  width:auto;
  white-space: nowrap;
 }
-#previousImage{
+.previousImage{
   position: absolute;
   left: 10px;
   font-size: 20px;
@@ -148,7 +144,31 @@ cursor: pointer;
   z-index: 1000;
   padding-top: 150px;
 }
-#nextImage{
+.previousImage121{
+  position: absolute;
+  left: 10px;
+  font-size: 20px;
+  font-family: 'avantgarde_medium';
+  text-align: center;
+  padding-top: 35px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1000;
+  padding-top: 150px;
+}
+.previousImage1212{
+  position: absolute;
+  left: 10px;
+  font-size: 20px;
+  font-family: 'avantgarde_medium';
+  text-align: center;
+  padding-top: 35px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1000;
+  padding-top: 150px;
+}
+.nextImage{
   position: absolute;
   right: 10px;
   font-size: 20px;
@@ -159,7 +179,39 @@ cursor: pointer;
   z-index: 1000;
   padding-top: 150px;
 }
-#courseListDetails{
+.nextImage121{
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
+  font-size: 'avantgarde_medium';
+  text-align: center;
+  padding-top: 35px;
+  cursor: pointer;
+  z-index: 1000;
+  padding-top: 150px;
+}
+.nextImage1212{
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
+  font-size: 'avantgarde_medium';
+  text-align: center;
+  padding-top: 35px;
+  cursor: pointer;
+  z-index: 1000;
+  padding-top: 150px;
+}
+.courseListDetails{
+  position: absolute;
+  width: 1600px;
+  overflow: hidden;
+}
+.courseListDetails121{
+  position: absolute;
+  width: 1600px;
+  overflow: hidden;
+}
+.courseListDetails1212{
   position: absolute;
   width: 1600px;
   overflow: hidden;
@@ -170,8 +222,19 @@ cursor: pointer;
   height: 300px;
   margin: 10px 5px 8px 33px;
   list-style: none; 
-}
-.imgSize1{
-  display: inline-block;
   cursor: pointer;
+}
+.trainerName{
+  cursor: pointer;
+   margin: 10px 5px 8px 33px;
+}
+.imgSize1{  
+  display: inline-block;
+  
+}
+.avlCourse{
+  text-align: center;
+}
+.AbleCourse {
+  text-align: center; 
 }

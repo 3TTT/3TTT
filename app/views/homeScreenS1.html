@@ -28,18 +28,40 @@
          </div>
     </div>
   </div> -->
-
-<div id="test">
-  
-</div>
-  <div id="courseDevContainer">
-    <div id="nextImage">NI</div>
-    <div id="previousImage">PI</div>
-    <div id="courseListDetails" >
-      <li class="imgSize1" ng-repeat= "X in CourseDetailsjson" ng-click="alertFun()">
-        <img  class="imgSize"  <img ng-src="{{X.courseImage}}"/>
+<h3 class="AbleCourse">Available Courses</h3>
+  <div class="courseDevContainer">
+    <div class="nextImage">NC</div>
+    <div class="previousImage">PC</div>
+    <div class="courseListDetails" >
+      <li class="imgSize1" ng-repeat= "X in CourseDetailsjson" >
+        <img  class="imgSize"  <img ng-src="{{X.courseImage}}" ng-click="alertFun()"/>
       </li>
     </div>
   </div>
+
+
+<h3 class="AbleCourse">Courses Starting in this week</h3>
+  <div class="courseDevContainer">
+    <div class="nextImage121">NC</div>
+    <div class="previousImage121">PC</div>
+    <div class="courseListDetails121" >
+      <li class="imgSize1" ng-repeat= "X in CourseDetailsjson" >
+        <img  class="imgSize"  <img ng-src="{{X.courseImage}}" ng-click="alertFun()"/>
+      </li>
+    </div>
+  </div>
+
+<h3 class="AbleCourse">Courses Starting in next two weeks</h3>
+  <div class="courseDevContainer">
+    <div class="nextImage1212">NC</div>
+    <div class="previousImage1212">PC</div>
+    <div class="courseListDetails1212" >
+      <li class="imgSize1" ng-repeat= "X in CourseDetailsjson" >
+        <img  class="imgSize"  <img ng-src="{{X.courseImage}}" ng-click="alertFun()"/>
+      </li>
+    </div>
+  </div>
+
+
 </div>
 

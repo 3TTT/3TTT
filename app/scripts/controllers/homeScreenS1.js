@@ -40,19 +40,41 @@ $scope.alertFun = function(){
   // $location.path = "/about";
 };
 
-$scope.nextImage = function(){
-  alert("jvnvs");
-}
+// $scope.nextImage = function(){
+//   alert("jvnvs");
+// }
 
-$('#nextImage').click(function(){
-  $("#courseListDetails").animate({
+$('.nextImage').click(function(){
+  $(".courseListDetails").animate({
      scrollLeft: '+=300px' 
   });
 });
 
-$('#previousImage').click(function(){
-  $("#courseListDetails").animate({
+$('.previousImage').click(function(){
+  $(".courseListDetails").animate({
     scrollLeft:'-=300px'
+  });
+});
+
+$('.nextImage121').click(function(){
+  $(".courseListDetails121").animate({
+    scrollLeft: '+=300px'
+  });
+});
+$('.previousImage121').click(function(){
+  $(".courseListDetails121").animate({
+    scrollLeft: '-=300px'
+  });
+});
+
+$('.nextImage1212').click(function(){
+  $(".courseListDetails1212").animate({
+    scrollLeft: '+=300px'
+  });
+});
+$('.previousImage1212').click(function(){
+  $(".courseListDetails1212").animate({
+    scrollLeft: '-=300px'
   });
 });
 });
