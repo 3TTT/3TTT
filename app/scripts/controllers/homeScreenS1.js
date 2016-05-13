@@ -40,15 +40,21 @@ $scope.alertFun = function(){
   // $location.path = "/about";
 };
 
+$scope.nextImage = function(){
+  alert("jvnvs");
+}
 
+$('#nextImage').click(function(){
+  $("#courseListDetails").animate({
+     scrollLeft: '+=156px' 
+  });
+});
 
-// $('#rightClick').click(function(){
-//   alert("jvdksvjs");
-// });
-
-
-
-
+$('#previousImage').click(function(){
+  $("#courseListDetails").animate({
+    scrollLeft:'-=156px'
+  });
+});
 });
 
 
