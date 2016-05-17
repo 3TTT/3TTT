@@ -238,3 +238,18 @@ cursor: pointer;
 .AbleCourse {
   text-align: center; 
 }
+.blankSpace{
+  display: inline-block;
+  width: 10%;
+  background-color: green;
+}
+.courseDetails{
+  display: inline-block;
+  width: 60%;
+  background-color: yellow;
+}
+.otherCourseDetails{
+  display: inline-block;
+  width: 29%;
+  background-color: red;
+}

@@ -1,1 +1,20 @@
-<p>Course Details View Page</p>
+<div class="controller">
+
+<div class="blankSpace">
+Part one	
+</div>
+<div class="courseDetails">
+	Part two
+</div>
+<div class="otherCourseDetails">
+	part three<br/>
+	<input type="button" value="Enroll Java Course" id='1' ng-click="listOfEnrolledStudents(1)"></input> <br/>
+	<!-- <button id='1' ng-click="listOfEnrolledStudents(1)">Enroll</button><br/> -->
+	<label ng-if="studentList<=6"> Please enroll only {{studentList}} seats are available</label>
+	<label ng-if="studentList<=2"> number of students enrolled : {{studentList}}</label><br/>
+	<label ng-if="studentList >2"> already enrolled 2 students, please enroll in next batch </label><br/>
+	<label>{{studentList}}</label>
+
+</div>
+	
+</div>
