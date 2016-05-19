@@ -8,12 +8,14 @@ Part one
 </div>
 <div class="otherCourseDetails">
 	part three<br/>
+	<div ng-repeat="X in CourseDetailsjson | filter:'1'">
+		<p >{{X.courseName[0] }}</p>
+	</div>	
 	<button  id='1' ng-disabled="studentList >=6" ng-click="listOfEnrolledStudents(1)" >Enroll Course</button> <br/>
 	<!-- <button id='1' ng-click="listOfEnrolledStudents(1)">Enroll</button><br/> -->
 	<label ng-show="studentList<=6" ng-hide="studentList==6"> Please enroll only {{6 - studentList}} seats are available</label>
 	<label ng-if="studentList<=6"> number of students enrolled : {{studentList}}</label><br/>
 	<label ng-if="studentList>=6" > already enrolled 6 students, please enroll in next batch </label><br/>
 	<label >{{studentList}}</label>
-
 </div>
 </div>
